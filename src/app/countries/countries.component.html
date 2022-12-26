@@ -1,0 +1,7 @@
+<img src="/assets/wakCo.gif">
+<li *ngFor = "let cy of country">
+    <p>{{cy.name}} </p>
+    <p>{{cy.capital}} </p>
+    <img [src]="cy.flags.png">
+    
+</li>

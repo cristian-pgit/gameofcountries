@@ -1,0 +1,9 @@
+<audio controls autoplay src='assets/GoT.mp3' type="audio/mp3">
+    Your browser does not support the <code>audio</code> element.
+</audio>
+<li *ngFor = "let char of character">
+    <P><img [src]="char.imageUrl"></P>
+    <p>{{char.fullName}} </p>
+    <p>{{char.title}} </p>
+    
+</li>
